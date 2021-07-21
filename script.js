@@ -18,6 +18,7 @@ document.getElementById('scroller').onscroll = function () {
                 b.id = actDotPosicion;
                 actDotPosicion = a.id;
                 a.id = 'active-dot';
+                console.log('script working', actDotPosicion);
         };
         if (sectionCoord == 4656) {
                 let a = document.getElementById('dot2');
@@ -27,6 +28,7 @@ document.getElementById('scroller').onscroll = function () {
                 b.id = actDotPosicion;
                 actDotPosicion = a.id;
                 a.id = 'active-dot';
+                console.log('script working', actDotPosicion);
         };
         if (sectionCoord == 4291) {
                 let a = document.getElementById('dot3');
@@ -36,6 +38,7 @@ document.getElementById('scroller').onscroll = function () {
                 b.id = actDotPosicion;
                 actDotPosicion = a.id;
                 a.id = 'active-dot';
+                console.log('script working', actDotPosicion);
         };
         if (sectionCoord == 3926) {
                 let a = document.getElementById('dot4');
@@ -45,6 +48,7 @@ document.getElementById('scroller').onscroll = function () {
                 b.id = actDotPosicion;
                 actDotPosicion = a.id;
                 a.id = 'active-dot';
+                console.log('script working', actDotPosicion);
         };
         if (sectionCoord == 3561) {
                 let a = document.getElementById('dot5');
@@ -54,6 +58,6 @@ document.getElementById('scroller').onscroll = function () {
                 b.id = actDotPosicion;
                 actDotPosicion = a.id;
                 a.id = 'active-dot';
+                console.log('script working', actDotPosicion);
         };
-        console.log('script working');
 }
