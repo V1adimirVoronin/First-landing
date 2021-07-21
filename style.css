@@ -211,8 +211,9 @@ form a {
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.active-dot {
-    display: none;
+#active-dot {
+    width: 35px;
+    margin-left: -5px;
 }
 .mac {
     margin-top: 70px;
