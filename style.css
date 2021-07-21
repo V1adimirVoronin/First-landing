@@ -1,0 +1,368 @@
+@font-face {
+    font-family: "Gilroy";
+    src: url("font/GilroyLight.woff");
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Gilroy";
+    src: url("font/GilroyBold.woff");
+    font-weight: bold;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #FFF2E9;
+    font-family: "Gilroy", Verdana, serif;
+}
+div {
+    display: flex;
+    height: 100%;
+    max-height: 100%;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+svg {
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    top: 38%;
+    right: 12%;
+}
+button {
+    color: #FFFFFF;
+    background-color: #E9856F;
+    border: 0;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    border-radius: 30px;
+    font-size: 12px;
+}
+input {
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 2px solid #E9856F;
+    background-color: #FFF2E9;
+    outline: none;
+    width: 250px;
+    font-size: 15px;
+}
+iframe {
+    display: none;
+    position: absolute;
+    width: 742px;
+    height: 472px;
+    margin-top: -142px;
+    margin-left: -328px;
+}
+label {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    z-index: 2;
+    margin: auto;
+}
+h1 {
+    font-weight: bold;
+    line-height: 1.159;
+    font-size: 26px;
+    margin: 0;
+}
+h2 {
+    font-size: 24px;
+    border-bottom-style: solid;
+    margin-left: 20%;
+    margin-bottom: 0;
+    margin-top: 120px;
+    padding-bottom: 12px;
+    height: fit-content;
+}
+h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+h4 {
+    font-size: 23px;
+    margin-top: 70px;
+    margin-bottom: 0;
+}
+text {
+    font-weight: bold;
+    font-size: 13px;
+}
+p {
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+footer {
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+footer p, 
+footer a {
+    font-size: 14px;
+    color: #D7AD97;
+}
+form p, 
+form a {
+    color: #E9856F;
+    font-size: 0.5px;
+}
+.main {
+    display: grid;
+    grid-template-rows: repeat(6, 937px) 293px;
+}
+.w100 {
+    width: 100%;
+}
+.column {
+    flex-direction: column;
+}
+.header {
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.logo {
+    width: 60%;
+    padding: 27% 0 0 35%;
+    align-self: flex-start;
+}
+.right39 {
+    flex: 39;
+    justify-content: flex-end;
+}
+.right54 {
+    flex: 54.5;
+}
+.mid41 {
+    flex: 41;
+}
+.left20 {
+    flex: 20;
+}
+.left45 {
+    flex: 45.5;
+    justify-content: flex-start;
+}
+.right75 {
+    flex: 75;
+}
+.dark {
+    background-color: #F3DDCF;
+}
+.ml20 {
+    margin-left: 20%;
+    margin-top: 0;
+}
+.ml70 {
+    margin-left: 70px;
+}
+.fit {
+    width: auto;
+    height: auto;
+}
+.video {
+    display: grid;
+    width: 1127px;
+}
+.table {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: minmax(auto, 270px) minmax(auto, 270px);
+    margin-top: 80px;
+}
+.table img {
+    width: 92px;
+}
+.table p,
+.table2 p {
+    margin: 0;
+    padding: 0;
+}
+.table2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: minmax(auto, 270px) minmax(auto, 270px);
+    margin-top: 80px;
+}
+.table2 img {
+    width: 50px;
+}
+#dots {
+    flex-direction: column;
+    flex: 25;
+    align-items: flex-end;
+    justify-content: center;
+}
+#dots img {
+    width: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.active-dot {
+    display: none;
+}
+.mac {
+    margin-top: 70px;
+    margin-left: -12%;
+    max-height: 570px;
+    align-self: start;
+    grid-column: 1;
+    grid-row: 1;
+}
+#scroller {
+    height: 818px;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    margin-left: 4.5%;
+}
+#scroller::-webkit-scrollbar { 
+    width: 0;
+}
+.section {
+    scroll-snap-align: center;
+    margin-top: 35px;
+}
+.section:first-of-type {
+    margin-top: 200px;
+}
+.section:last-of-type {
+    margin-bottom: 200px;
+}
+.vk {
+    font-size: 9px;
+    font-weight: bold;
+    color: #D3A58D;
+}
+.feedback {
+    justify-content: center;
+    margin-left: 6%;
+}
+.fbsection {
+    margin-left: -4%;
+    margin-bottom: 100px;
+    overflow: hidden;
+}
+.circle {
+    display: grid;
+    width: 330px;
+}
+.fbphoto {
+    width: 196px;
+    grid-column: 1;
+    grid-row: 1;
+    margin: auto;
+}
+.mask {
+    z-index: 1;
+    width: 409px;
+    grid-column: 1;
+    grid-row: 1;
+    margin: auto;
+}
+.h4-sub {
+    color: #D3A58D;
+    font-weight: bold;
+    font-size: 14px;
+}
+.achievements {
+    margin-top: 100px;
+}
+.achievements p {
+    font-size: 15px;
+    margin: 0;
+    padding-top: 15px;
+}
+.top-gradient {
+    position: absolute;
+    width: 100%;
+    height: 175px;
+    z-index: 2;
+    background: -webkit-linear-gradient(
+        top, #F3DDCF 5%, rgba(0,0,0,0) 100%
+    );
+}
+.bot-gradient {
+    align-self: flex-end;
+    position: absolute;
+    width: 104%;
+    height: 175px;
+    z-index: 2;
+    background: -webkit-linear-gradient(
+        top, rgba(0,0,0,0) 5%, #F3DDCF 100%
+    );
+}
+#BtnControl {
+    display: none;
+}
+#BtnControl:checked + label > iframe {
+    display: block;
+}
+.BtnCircle {
+    width: 105px;
+    height: 105px;
+    border-radius: 50%;
+    grid-column: 1;
+    grid-row: 1;
+    z-index: 1;
+    margin-top: 227px;
+    margin-left: 382px;
+    box-sizing: border-box;
+}
+.BtnCircle:hover {
+    background: rgba(0,0,30,0.3);
+}
+.field1 {
+    position: absolute;
+    margin-top: 496px;
+    margin-left: 30px;
+    width: 153px;
+    z-index: 10;
+}
+.field2 {
+    position: absolute;
+    margin-top: 1030px;
+    margin-left: 94.5%;
+    width: 55px;
+    z-index: 10;
+}
+.field3 {
+    position: absolute;
+    margin-top: 1740px;
+    margin-left: -18px;
+    width: 153px;
+    z-index: 10;
+}
+.field4 {
+    position: absolute;
+    margin-top: 2675px;
+    margin-left: 90%;
+    width: 153px;
+    z-index: 10;
+}
+.field5 {
+    position: absolute;
+    margin-top: 3465px;
+    margin-left: 30px;
+    width: 200px;
+    z-index: 10;
+}
+.field6 {
+    position: absolute;
+    margin-top: 4400px;
+    margin-left: 93%;
+    width: 105px;
+    z-index: 10;
+}
