@@ -1,5 +1,5 @@
 'use strict';
-alert (' Эта страница является тренировочной! \n Содержащийся в ней контент не имеет отношения к действительности! \n \n This page is just for practice! \n The content it contains is irrelevant!');
+alert ('Эта страница является тренировочной!\nСодержащийся в ней контент не имеет отношения к действительности!\n\nThis page is just for practice!\n The content it contains is irrelevant!');
 
 function getCoords(elem) {
         let box = elem.getBoundingClientRect().top + pageYOffset;
