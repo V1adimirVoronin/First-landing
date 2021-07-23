@@ -118,7 +118,7 @@ footer a {
 form p, 
 form a {
     color: #E9856F;
-    font-size: 6px;
+    font-size: 8px;
 }
 .main {
     display: grid;
@@ -170,7 +170,8 @@ form a {
     margin-left: 70px;
 }
 .mt15 {
-    margin-top: 15px;
+    margin-top: 30px;
+    margin-bottom: 0;
 }
 .fit {
     width: auto;
