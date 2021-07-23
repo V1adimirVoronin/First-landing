@@ -291,7 +291,7 @@ form a {
 }
 .top-gradient {
     position: absolute;
-    width: 100%;
+    width: 104%;
     height: 175px;
     z-index: 2;
     background: -webkit-linear-gradient(
