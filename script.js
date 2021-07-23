@@ -53,4 +53,5 @@ document.getElementById('scroller').onscroll = function () {
                 actDotPosicion = a.id;
                 a.id = 'active-dot';
         };
+        console.log(sectionCoords);
 }
