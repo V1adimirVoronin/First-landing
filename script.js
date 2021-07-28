@@ -37,4 +37,5 @@ document.getElementById('scroller').onscroll = function () {
                 n = 'dot5'
         };
         dotMove();
+console.log(sectionCoord);
 };
