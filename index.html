@@ -324,7 +324,7 @@
 <script type="text/javascript">
   function getCoords(elem) {
         let box = elem.getBoundingClientRect().top + pageYOffset;
-        return box;
+        return Math.trunc(box);
 }
 
 let actDotPosicion = 'dot1';
