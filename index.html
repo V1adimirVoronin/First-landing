@@ -336,46 +336,67 @@ document.getElementById('scroller').onscroll = function () {
         let sectionCoord = getCoords(sectionList[0]);
         if (sectionCoord == startActDotPosicion) {
                 let a = document.getElementById('dot1');
+                console.log(a);
                 if (a != null) {
                         a.src = 'pic/active-dot.png';
                         let b = document.getElementById('active-dot');
+                        console.log(b);
                         b.src = 'pic/dot.png';
                         b.id = actDotPosicion;
+                        console.log(b);
                         actDotPosicion = a.id;
                         a.id = 'active-dot';
+                        console.log(a);
                 };
         } else if (sectionCoord == startActDotPosicion-sectionMove) {
                 let a = document.getElementById('dot2');
+                console.log(a);
                 a.src = 'pic/active-dot.png';
                 let b = document.getElementById('active-dot');
+                console.log(b);
                 b.src = 'pic/dot.png';
                 b.id = actDotPosicion;
+                console.log(b);
                 actDotPosicion = a.id;
                 a.id = 'active-dot';
+                console.log(a);
         } else if (sectionCoord == startActDotPosicion-sectionMove*2) {
                 let a = document.getElementById('dot3');
+                console.log(a);
                 a.src = 'pic/active-dot.png';
                 let b = document.getElementById('active-dot');
+                console.log(b);
                 b.src = 'pic/dot.png';
                 b.id = actDotPosicion;
+                console.log(b);
                 actDotPosicion = a.id;
                 a.id = 'active-dot';
+                console.log(a);
         } else if (sectionCoord == startActDotPosicion-sectionMove*3) {
                 let a = document.getElementById('dot4');
+                console.log(a);
                 a.src = 'pic/active-dot.png';
                 let b = document.getElementById('active-dot');
+                console.log(b);
                 b.src = 'pic/dot.png';
                 b.id = actDotPosicion;
+                console.log(b);
                 actDotPosicion = a.id;
                 a.id = 'active-dot';
+                console.log(a);
         } else if (sectionCoord == startActDotPosicion-sectionMove*4) {
                 let a = document.getElementById('dot5');
+                console.log(a);
                 a.src = 'pic/active-dot.png';
                 let b = document.getElementById('active-dot');
+                console.log(b);
                 b.src = 'pic/dot.png';
                 b.id = actDotPosicion;
+                console.log(b);
                 actDotPosicion = a.id;
                 a.id = 'active-dot';
+                console.log(a);
         };
+  console.log(sectionCoord);
 }</script>
 </html>
