@@ -55,6 +55,6 @@ document.getElementById('scroller').onscroll = function () {
                         b.id = actDotPosicion;
                         actDotPosicion = a.id;
                         a.id = 'active-dot';
+                };
         };
-        concole.log(sectionCoord);
 }
